@@ -5,9 +5,9 @@ av Hamid Awaty */
 let price =100;
 let number = 3;
 let total = price * number;
-
+let priceWithTax= total *1.25;
 
 console.log(`Price: ${price}`);
 console.log(`Number: ${number}`);
 console.log(`Total: ${total}`);
-console.log(`Total with tax: ${total * 1.25}`);
+console.log(`Total with tax: ${priceWithTax}`);
