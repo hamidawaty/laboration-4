@@ -6,3 +6,9 @@ const book={
     author:"J.K. Rowling",
     published:1997.
 };
+function bookInfo(book){
+    console.log("Title: "+book.title);
+    console.log("Author: "+book.author);
+    console.log("Publish year: "+book.published);
+}
+bookInfo(book);
