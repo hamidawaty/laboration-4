@@ -11,4 +11,6 @@ console.log(dishes[dishes.length - 1]);
 
 dishes.push("lasagna");
 
+dishes.shift();
+
 console.log(dishes);
