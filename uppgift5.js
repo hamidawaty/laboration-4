@@ -1,6 +1,11 @@
 //lösning till uppgift 5 av Hamid awaty
 "use strict";
 
-let weekDays = ["Monday","Tuesday","Wednsday","Thursday","friday"]
+let dishes = ["pizza","pasta","sushi","tacos","sallad"]
 
-console.log(weekDays);
+console.log(dishes);
+
+console.log(dishes[0]);
+
+console.log(dishes[dishes.length - 1]);
+
