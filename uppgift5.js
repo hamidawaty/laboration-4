@@ -9,3 +9,6 @@ console.log(dishes[0]);
 
 console.log(dishes[dishes.length - 1]);
 
+dishes.push("lasagna");
+
+console.log(dishes);
