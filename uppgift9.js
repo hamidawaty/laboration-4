@@ -17,8 +17,16 @@ const people = [
     age: 12,
     city: "Gothenberg",
   },
+  {
+    name: "Emma",
+    age: 18,
+    city: "Borås",
+  },
 ];
-
+/*
+funktionen hämtar information från arrayen 
+och använder if för att avgöra personens ålder
+*/
 function personInfo(person) {
   if (person.age < 18) {
     console.log(
@@ -28,6 +36,7 @@ function personInfo(person) {
     console.log(` ${person.name} lives in ${person.city} and is of legal age.`);
   }
 }
+
 for (const person of people) {
   personInfo(person);
 }
