@@ -3,7 +3,7 @@
 
 let dishes = ["pizza","pasta","sushi","tacos","sallad"]
 
-console.log(dishes);
+console.log(dishes); //skriver ut hela arrayen
 
 console.log(dishes[0]); //skriver ut det första elementet 
 
@@ -13,4 +13,4 @@ dishes.push("lasagna"); //lägger till ett element
 
 dishes.shift(); //tar bort det första elementet 
 
-console.log(dishes);
+console.log(dishes); //skriver ut arrayen efter ändringarna

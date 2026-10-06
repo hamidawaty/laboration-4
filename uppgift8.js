@@ -2,7 +2,7 @@
 "use strict";
 
 const book={ // en obbjekt
-    title:"Harry Potter and the Philosopher's Stone",
+    title:"Harry Potter and the Philosopher's Stone", //titel på boken som tillhör objektet "book"
     author:"J.K. Rowling",
     published:1997.
 };
@@ -11,4 +11,4 @@ function bookInfo(book){  //funktionen skriver ut egenskaper ut av objektet
     console.log("Author: "+book.author);
     console.log("Publish year: "+book.published);
 }
-bookInfo(book);
+bookInfo(book); //anropar funktionen och tar objektet som argument

@@ -1,7 +1,7 @@
 //lösning till uppgift 9 av Hamid awaty
 "use strict";
 
-const people = [
+const people = [ //en array med fleraobjekt som innehåller information om personer
   {
     name: "Amber",
     age: 35,
@@ -30,7 +30,7 @@ och använder if för att avgöra personens ålder
 function personInfo(person) {
   if (person.age < 18) {
     console.log(
-      ` ${person.name} lives in ${person.city} and is not of legal age.`,
+      ` ${person.name} lives in ${person.city} and is not of legal age.`,//funktionen skriver meddealnde beroende på personens ålder
     );
   } else {
     console.log(` ${person.name} lives in ${person.city} and is of legal age.`);
