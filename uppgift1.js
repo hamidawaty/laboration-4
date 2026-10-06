@@ -1,13 +1,16 @@
 //Lösning till uppgift 1 av Hamid Awaty
 "use strict";
 
-let firstName = "Hamid";
-let lastName = "Awaty";
+// Deklarerar variabler med let och const
+const firstName = "Hamid";
+const lastName = "Awaty";
 let age = 29;
 let ärStudent = true;
 
-let fullName = firstName + lastName;
+//slår ihop förnamn och efternamn till en variabel med mllanslang
+const fullName = firstName +" "+ lastName;
 
+// Skriver ut informationen till konsolen
 console.log(`First name: ${firstName}`)
 console.log(`Last name: ${lastName}`)
 console.log(`Full name: ${fullName}`);
